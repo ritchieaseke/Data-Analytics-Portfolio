@@ -10,7 +10,13 @@ Platforms and skills demonstrated:
 - SQL via PostgreSQL's pgAdmin 4
 - IBM Watson Studio for visualisation
 
-#### Step 1: Snscrape was used to scrape twitter for tweets on "NHS Service"
+<details><summary>STEP 1 - Data Scraping</summary>
+<p>
+
+#### Snscrape was used to scrape twitter for tweets on "NHS Service"
   The results of which are appended to a list, converted to a pandas dataframe and then saved as a csv file.
   This process is repeated for each year between 2017 and 2022
-  > [Veiw jupyter code]
+  > [Veiw code](https://github.com/ritchieaseke/Data-Analytics-Portfolio/blob/f0148c0b4099370c2da6c06f982b768a4d20627b/sentiment_analysis_twitter_data_scrapping.py)
+
+</p>
+</details>
