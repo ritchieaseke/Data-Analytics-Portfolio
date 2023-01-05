@@ -84,8 +84,24 @@ tweet_df[['User', 'Tweet', 'Number_of_Likes', 'Date_Tweet', 'Place']].head()
 # Print a summary of the data frame
 tweet_df.info()
 
+# In[5]
 
-# In[5]:
+
+# Check for duplicate tweets
+tweet_df['Tweet'].duplicated().value_counts()
+
+
+# In[6]
+
+
+# Delete duplicate tweets
+tweet_df.drop_duplicates(subset= 'Tweet', keep='first', inplace=True)
+
+# Confirm deletion of duplicate tweets by checking again
+tweet_df['Tweet'].duplicated().value_counts()
+
+
+# In[7]:
 
 
 # Save the data frame as a cvs file
