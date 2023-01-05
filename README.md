@@ -26,7 +26,7 @@ Platforms and skills demonstrated:
 
 #### The Natural Language Toolkits (NLTKs) pre-trained sentiment analyzer was used to calculate the compound sentiment score (CSS) of all the tweets.
   The results of which are appended appended to the original dataframe in a new column. Each CSS is then classified as negative, positive or neutral in another column. The new dataframe is then saved as a CSV file
-  > [Veiw code](https://github.com/ritchieaseke/Data-Analytics-Portfolio/blob/b43b0c6e2dcb1b85f2a371c471bd138aee83968d/Project1_nhsSentimentAnalysis/sentiment_analysis_twitter_data_scrapping.py)
+  > [Veiw code](https://github.com/ritchieaseke/Data-Analytics-Portfolio/blob/884861bc551d76f153d2d8159a25152dcbe1e27b/Project1_nhsSentimentAnalysis/sentiment_analysis_tweet_NLTKs_compound_score.py)
 
 </p>
 </details>
